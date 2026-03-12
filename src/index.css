@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@keyframes fall {
+  0% {
+    transform: translateY(-10vh);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(110vh);
+    opacity: 0;
+  }
+}
+
+.animate-fall {
+  animation-name: fall;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
